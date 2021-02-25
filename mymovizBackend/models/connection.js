@@ -6,7 +6,7 @@ var options = {
     useUnifiedTopology : true
    }
 
-mongoose.connect('mongodb+srv://admin_capsule_test:lacapsule@lacapsule.xqzrl.mongodb.net/mymoviz?retryWrites=true&w=majority',
+mongoose.connect('mongodb+srv://MDP:lacapsule@lacapsule.xqzrl.mongodb.net/mymoviz?retryWrites=true&w=majority',
    options,
    function(err) {
        console.log(err);
